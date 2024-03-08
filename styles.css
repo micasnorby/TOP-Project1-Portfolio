@@ -70,7 +70,7 @@ h1 {
     padding: 12px 0;
 }
 
-button {
+.container button {
     width: 100px;
     height: 32px;
     background-color: #3882F6;
@@ -155,11 +155,49 @@ button {
 
 .action {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+.box {
+    width: 720px;
+    height: 32px;
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 124px;
+    border: none;
+    border-radius: 1rem;
 }
 
 .action_text {
     display: flex;
     flex-direction: column;
+}
+
+.action_text h3 {
+    color: #F9FAF8;
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+.action_text p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+}
+
+.action button {
+    width: 100px;
+    height: 32px;
+    background-color: #3882F6;
+    border: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+    border-radius: 8px;
+    color: #F9FAF8;
 }
 
 /* Footer */
