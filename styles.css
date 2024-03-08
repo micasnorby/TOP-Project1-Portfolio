@@ -136,9 +136,9 @@ button {
 }
 
 .quote p {
-    width: 706px;
+    width: 750px;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937;
     margin: 0;
@@ -146,6 +146,7 @@ button {
 }
 
 .quote h3 {
-    margin: 0;
+    margin-left: 400px;
+    margin-top: -10px;
     padding: 0;
 }
